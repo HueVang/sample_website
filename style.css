@@ -10,7 +10,8 @@ html, body {
 }
 
 #header {
-	padding: 10px;
+	padding: 2em;
+	border-bottom: solid 1px white;
 }
 
 #body {
@@ -91,6 +92,7 @@ h2 {
 }
 
 #info {
+	border-radius: 50px 50px 0 0;
 	padding: 0 3em 0 3em;
 	height: 500px;
 	width: 940px;
@@ -117,35 +119,49 @@ h2 {
 #slideshow {
 	/*text-align: -webkit-center;
 	text-align: -moz-center;*/
-	border: solid 2px gray;
+	overflow: hidden;
+	border: solid 5px gray;
+	border: solid 5px rgba(50, 50, 50, 0.4);
 	margin: 0 auto;
 	height:360px;
 	width: 640px;
+	border-radius: 30px 30px 0 0;
 }
 
+.wrapper {
+	width: 640px;
+	margin: 0 auto;
+}
 
-img.slides {
+#slideshow > img {
+	height: 360px;
+	width: 640px;
+	float: left;
+	display: none;
+}
+
+#buttons a {
+	opacity: 0.5;
+	padding: 5px 10px;
+	color: white;
+	margin-top: -3em;
+	text-decoration: none;
+}
+
+a.left {
+	float: left;
+}
+
+a.right {
+	float: right;
+}
+
+/*img.slides {
 	position: absolute;
 	height: 360px;
 	width: 640px;
 
-}
-
-img#image_1 {
-	z-index: 5;
-}
-
-img#image_2 {
-	z-index: 4;
-}
-
-img#image_3 {
-	z-index: 3;
-}
-
-img#image_4 {
-	z-index: 2;
-}
+}*/
 
 /*#footer_nav {
 	position: absolute;
