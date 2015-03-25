@@ -1,0 +1,13 @@
+#video {
+	margin: 0 auto;
+	height:360px;
+	width: 640px;
+}
+
+#info2 {
+	padding: 0 3em 0 3em;
+	height: 300px;
+	width: 940px;
+	background-color: rgba(5, 5, 5, 0.85);
+	margin: 0 auto;
+}

@@ -1,0 +1,193 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+#header {
+	padding: 10px;
+}
+
+#body {
+	padding: 10px;
+	padding-bottom: 41px;
+}
+
+#footer {
+	position: absolute;
+	display: inline;
+	bottom: 0;
+	height: 41px;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.75);
+	border-bottom: solid 1px white;
+}
+
+#nav_bar {
+	display: inline;
+	position: absolute;
+	height: 41px;
+	width: 99%;
+}
+#nav_bar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav_bar a {
+	font-family: sans-serif;
+	color: #6600ff;
+	text-decoration: none;
+	display: block;
+	width: 60px;
+}
+
+#nav_bar a:hover {
+	text-decoration: underline;
+}
+
+#nav_left {
+	display: inline;
+	float: left;
+}
+
+#nav_right {
+	display: inline;
+	float: right;
+}
+
+#nav_left div {
+	float: left;
+}
+
+#nav_right div {
+	float: right;
+}
+
+h1 {
+	font-family: 'Jura', sans-serif;
+	font-weight: 200;
+	line-height: 1.4em;
+	color: gray;
+	margin-top: 41px;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+
+h2 {
+	font-family: 'Jura', sans-serif;
+	color: white;
+	padding-top: 3em;
+	text-decoration: underline;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+
+#info {
+	padding: 0 3em 0 3em;
+	height: 500px;
+	width: 940px;
+	background-color: rgba(5, 5, 5, 0.85);
+	margin: 0 auto;
+}
+
+#info p, #info2 p {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.25em;
+	color: white;
+}
+
+#info a, #info2 a {
+	color: #0066ff;
+	text-decoration: none;
+}
+
+#info a:hover, #info2 a:hover {
+	text-decoration: underline;
+}
+
+
+#slideshow {
+	/*text-align: -webkit-center;
+	text-align: -moz-center;*/
+	border: solid 2px gray;
+	margin: 0 auto;
+	height:360px;
+	width: 640px;
+}
+
+
+img.slides {
+	position: absolute;
+	height: 360px;
+	width: 640px;
+
+}
+
+img#image_1 {
+	z-index: 5;
+}
+
+img#image_2 {
+	z-index: 4;
+}
+
+img#image_3 {
+	z-index: 3;
+}
+
+img#image_4 {
+	z-index: 2;
+}
+
+/*#footer_nav {
+	position: absolute;
+	display: inline;
+	bottom: 0;
+	height: 41px;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.75);
+}*/
+
+#footer_left {
+	display: inline;
+	float: left;
+}
+
+#footer_right {
+	display: inline;
+	float: right;
+}
+
+#footer_left p {
+	margin-left: 15em;
+	font-size: 0.75em;
+	position: absolute;
+	color: white;
+	font-family: 'Jura', sans-serif;
+	float: left;
+}
+
+#footer_right div {
+	float: right;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+}
+
+#google {
+	margin-right: 10em;
+}
+
+#pic {
+	width: 25px;
+	height: 25px;
+	border-radius: 20px;
+}
